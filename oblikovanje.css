@@ -57,9 +57,11 @@ margin-left: 2em;
 .slika img{   
 width:100%; 
 height:auto;
-border-radius:50% ;
+border-radius:20% ;
 }
 
 .slika p:last-child { font-size: 0.8em; 
-
+padding-top: 10%;
 }
+a::before {
+    content: '🔗';}
